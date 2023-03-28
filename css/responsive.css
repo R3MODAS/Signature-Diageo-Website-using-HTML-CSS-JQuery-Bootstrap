@@ -1,4 +1,32 @@
-@media(max-width: 1400px) {
+@media(min-width: 1925px) {
+    .signatureimg {
+        right: -17%;
+        top: 101%;
+    }
+
+    .signatureimg2 {
+        left: -20%;
+        top: 184%;
+    }
+
+    .bottleimg {
+        left: 35%;
+    }
+
+    #festival-section h3 {
+        top: 29%;
+        left: 32%;
+    }
+
+}
+
+
+@media(max-width: 1440px) {
+
+    #content-section4 .container .text-box {
+        align-items: center;
+    }
+
     .owl-carousel1 .owl-nav {
         left: -130%;
     }
@@ -24,58 +52,35 @@
 }
 
 @media(max-width: 1280px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 100%;
+    #hero-section .bgvideo {
+        height: 100vh;
     }
 
-    .col-6 {
-        width: 90%;
+    #first-section .container .first-col {
+        padding: 40px;
     }
 
     #content-section1 {
-        padding-top: 50px;
-    }
-
-    #content-section1 .container .row {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
+        padding-top: 40px;
     }
 
     #content-section1 .container .second-col {
-        padding-left: 0;
+        padding-left: 60px;
     }
 
-
-    #content-section2 .container .row {
+    #content-section1 .container .buttons {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        gap: 50px;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
-    #content-section2 .container .second-col {
-        padding-left: 0;
+    #content-section1 .container .buttons {
+        margin-top: 0;
     }
 
-    #content-section3 {
-        padding-bottom: 80px;
-    }
-
-    #content-section3 .container .row {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
+    #content-section1 .container .buttons .btn:nth-child(1) {
+        margin-right: 0;
     }
 
     #content-section4 {
@@ -105,7 +110,75 @@
 
 }
 
+@media(max-width: 1199px) {
+    .bottleimg {
+        left: 14%;
+    }
+
+    #festival-section h3 {
+        left: 17%;
+    }
+}
+
 @media(max-width: 991px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 100%;
+    }
+
+    .col-6 {
+        width: 90%;
+    }
+
+    #content-section1 {
+        padding-top: 50px;
+    }
+
+    #content-section1 .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #content-section1 .container .second-col {
+        padding-left: 0;
+    }
+
+    #content-section1 .container .buttons {
+        margin-top: 25px;
+    }
+
+
+    #content-section2 .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    #content-section2 .container .second-col {
+        padding-left: 0;
+    }
+
+    #content-section3 {
+        padding-bottom: 80px;
+    }
+
+    #content-section3 .container .row {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
 
     #hero-section .container h1 {
         font-size: 110px;
@@ -177,8 +250,8 @@
     }
 
     #festival-section h3 {
-        top: 28%;
-        left: 23%;
+        top: 24%;
+        left: 21%;
         font-size: 130px;
         line-height: 150px;
         white-space: pre-wrap;
@@ -190,7 +263,13 @@
 
 }
 
-@media(max-width: 767px) {
+@media(max-width: 840px) {
+    #festival-section h3 {
+        left: 18%;
+    }
+}
+
+@media(max-width: 770px) {
 
     #hero-section .container h1 {
         font-size: 6rem;
@@ -336,6 +415,11 @@
         white-space: nowrap;
     }
 
+    .owl-carousel2 {
+        right: 0;
+        padding: 50px 0;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -415,7 +499,7 @@
 
     #first-section .container .first-col {
         padding-top: 40px;
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     #first-section .container p {
@@ -502,6 +586,10 @@
     #content-section4 .owl-carousel1 .content {
         padding: 10px 0;
     }
+
+    .owl-carousel1 {
+        left: 4%;
+    }
 }
 
 @media (max-width:390px) {
@@ -525,5 +613,11 @@
     .owl-carousel1 {
         top: 93%;
         right: 7%;
+    }
+
+    #festival-section h3 {
+        top: 10%;
+        left: 12%;
+        font-size: 4.5rem;
     }
 }
