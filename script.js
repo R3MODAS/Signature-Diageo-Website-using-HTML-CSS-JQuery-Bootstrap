@@ -12,10 +12,26 @@ $(function () {
 $(function () {
     var owl = $(".owl-carousel2");
     owl.owlCarousel({
-        items: 3,
-        margin: 0,
+        items: 4,
+        margin: 25,
         loop: true,
         nav: false,
-        dots: false
+        dots: false,
+        mouseDrag: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            575: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            },
+            1440: {
+                items: 4
+            }
+        }
     });
 });
