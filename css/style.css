@@ -34,7 +34,6 @@ body {
 
 body {
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
     background-color: #000;
     position: relative;
 }
@@ -150,15 +149,16 @@ p {
     position: absolute;
     right: -33%;
     top: 152%;
-    z-index: 1;
+    z-index: 0;
 }
 
 .signatureimg2 {
     position: absolute;
     left: -27%;
     top: 280%;
-    z-index: 1;
+    z-index: 0;
 }
+
 
 /* ========== Hero Section ========== */
 #hero-section {
@@ -173,7 +173,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 650px;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -200,7 +200,9 @@ p {
 .fadeimg {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
+
 
 /* =========== First Section =========== */
 #first-section {
@@ -261,9 +263,13 @@ p {
     color: #EED3B1;
 }
 
+#content-section1 .container .buttons {
+    margin-top: 25px;
+}
 
 #content-section1 .container .buttons .btn:nth-child(1) {
     padding: 13px 40px;
+    margin-right: 20px;
 }
 
 /* ======= Content Section 2 ========= */
@@ -502,11 +508,11 @@ p {
 .owl-carousel2 {
     position: relative;
     right: -20%;
-    bottom: 120px;
+    bottom: 100px;
 }
 
-.owl-carousel2 .owl-item img {
-    width: auto;
+.owl-carousel2 .item {
+    padding: 0 10px !important;
 }
 
 
